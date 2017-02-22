@@ -4,10 +4,10 @@ while true; do
 	img_name=$(curl --silent https://rms.sexy | grep "/img/" | sed 's/^.*src="//' | awk '{print $1 }' | cut -d '/' -f 3 | tr -d "\"")
 	curl https://rms.sexy/img/$img_name > $img_name && feh --bg-fill $img_name
 	rm $img_name
-#	if [ $? -eq 0 ]
-#	then
-#		sleep 3
-#	else
-#		sleep $1
-#	fi
+	if [ $? -eq 0 ]
+	then
+		sleep 3
+	else
+		sleep $1
+	fi
 done
