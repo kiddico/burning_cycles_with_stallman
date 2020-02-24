@@ -2,4 +2,3 @@ Do you ever feel like your life is missing something, but just can't figure out 
 
 I have the answer. You need more Stallman in your life. Also probably more vitamin C.
 This script will possibly solve at least one of those problems. Unless you're on one of many operating systems that this wont work on.
-Sorry to trigger you, but we're not "all inclusive" here. Feh master race.
